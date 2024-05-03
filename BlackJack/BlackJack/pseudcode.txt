@@ -1,0 +1,41 @@
+Rules of BlackJack
+
+pseudocode
+
+Must reach 21
+
+
+
+if reach over 21 == instadeath
+if both reach over 21
+	> if firstP val - 21 is greater than secondP val - 21
+		> kill secondP
+	> else 
+		>kill firstP
+
+make it similar to roblox Twenty-One
+
+Dealer
+
+cards
+
+track their limit
+
+
+
+
+print their deck
+
+add card to the deck
+
+player read turn
+
+
+draw card function
+    want to specify what cards are possible
+    want to specify which cards can be drawn
+        later randomize from that list
+    use of helper method that will return true if a value exists in the array
+        iterates through player's deck, finds the value in question, and returns a boolean
+
+
